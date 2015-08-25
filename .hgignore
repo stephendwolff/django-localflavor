@@ -1,0 +1,15 @@
+syntax: glob
+
+.DS_Store
+.gitignore
+
+syntax: regexp
+
+# Developers
+^\.hg/
+^\.git/
+^\.svn/
+^\.idea/
+^\.sass-cache/
+\.db$
+
